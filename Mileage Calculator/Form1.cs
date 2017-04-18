@@ -43,5 +43,21 @@ namespace Mileage_Calculator
         {
 
         }
+
+        private void displayMiles_Click(object sender, EventArgs e)
+        {
+            startingMileage = (int)numericUpDown1.Value;
+            endingMileage = (int)numericUpDown2.Value;
+            if (startingMileage <= endingMileage)
+            {
+                milesTraveled = endingMileage - startingMileage;
+                calculatedAmountLabel.Text = "";
+                MessageBox.Show(milesTraveled + " miles", "Miles Traveled");
+            }
+            else
+            {
+                MessageBox.Show("The starting mileage must be less than the ending mileage.", "Cannot Calculate Mileage");
+            }            
+        }
     }
 }

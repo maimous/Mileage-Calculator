@@ -18,3 +18,7 @@
 &nbsp;
 ## 03 Add logic
 * Add the calculations in the *calculateButton_Click* method.
+
+&nbsp;
+## 04 Add the *Display Miles* button
+* Add another button and the logic in its method.

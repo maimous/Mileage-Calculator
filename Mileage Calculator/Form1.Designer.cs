@@ -36,6 +36,7 @@
             this.calculatedAmountLabel = new System.Windows.Forms.Label();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.calculateButton = new System.Windows.Forms.Button();
+            this.displayMiles = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -131,11 +132,22 @@
             this.calculateButton.UseVisualStyleBackColor = true;
             this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
+            // displayMiles
+            // 
+            this.displayMiles.Location = new System.Drawing.Point(216, 157);
+            this.displayMiles.Name = "displayMiles";
+            this.displayMiles.Size = new System.Drawing.Size(125, 30);
+            this.displayMiles.TabIndex = 7;
+            this.displayMiles.Text = "Display Miles";
+            this.displayMiles.UseVisualStyleBackColor = true;
+            this.displayMiles.Click += new System.EventHandler(this.displayMiles_Click);
+            // 
             // MileageCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 211);
+            this.Controls.Add(this.displayMiles);
             this.Controls.Add(this.calculateButton);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.calculatedAmountLabel);
@@ -167,6 +179,7 @@
         private System.Windows.Forms.Label calculatedAmountLabel;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.Button calculateButton;
+        private System.Windows.Forms.Button displayMiles;
     }
 }
 
