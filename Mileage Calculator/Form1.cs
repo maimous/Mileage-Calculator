@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Mileage_Calculator
 {
-    public partial class Form1 : Form
+    public partial class MessageCalculator : Form
     {
-        public Form1()
+        public MessageCalculator()
         {
             InitializeComponent();
         }
