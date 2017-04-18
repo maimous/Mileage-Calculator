@@ -1,6 +1,6 @@
 ﻿namespace Mileage_Calculator
 {
-    partial class MessageCalculator
+    partial class MileageCalculator
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MessageCalculator));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MileageCalculator));
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.StartingMileageLabel = new System.Windows.Forms.Label();
             this.EndingMileageLabel = new System.Windows.Forms.Label();
@@ -129,8 +129,9 @@
             this.calculateButton.TabIndex = 6;
             this.calculateButton.Text = "Calculate";
             this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
-            // MessageCalculator
+            // MileageCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -147,8 +148,9 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "MessageCalculator";
+            this.Name = "MileageCalculator";
             this.Text = "Mileage Calculator";
+            this.Load += new System.EventHandler(this.MileageCalculator_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.ResumeLayout(false);

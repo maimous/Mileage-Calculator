@@ -10,11 +10,27 @@ using System.Windows.Forms;
 
 namespace Mileage_Calculator
 {
-    public partial class MessageCalculator : Form
+    public partial class MileageCalculator : Form
     {
-        public MessageCalculator()
+        int startingMileage;
+        int endingMileage;
+        double milesTraveled;
+        double reimburseRate = .39;
+        double amountOwed;
+        
+        public MileageCalculator()
         {
             InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MileageCalculator_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

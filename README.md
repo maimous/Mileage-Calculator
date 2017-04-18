@@ -10,3 +10,7 @@
 * Set name, text, dimensions, icon etc.
 * Add four labels, two NumericUpDowns and a button and configure them.
 * Set max and min NumericUpDowns values to 999999 and 1.
+
+&nbsp;
+## 02 Add fields
+* Two integers for mileage and three doubles for the miles, rate and amount.

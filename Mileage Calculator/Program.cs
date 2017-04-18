@@ -16,7 +16,7 @@ namespace Mileage_Calculator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MessageCalculator());
+            Application.Run(new MileageCalculator());
         }
     }
 }
